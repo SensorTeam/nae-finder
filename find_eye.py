@@ -15,7 +15,7 @@ import math
 
 GRADIUS = 1		# gaussian blur radius, must be odd
 
-THRESH = 110		# minimum brightness
+THRESH = 120		# minimum brightness
 
 #MINMASKSIZE = 30		# size masking for noise reduction
 #MAXMASKSIZE = 500

@@ -51,9 +51,12 @@ def find_pairs(image, cnts):
 	pairs = [con_pairs, pair_det]
 	return pairs
 
-# find the approximate centre of each shape
+# find the approximate centre of each shape 
+# using centre of contour ave w/ brightest pixels
 def find_centre(con):
 	M = cv2.moments(con)
 	x = int(M["m10"] / M["m00"])
 	y = int(M["m01"] / M["m00"])
+	# find brightest pixels in the contour and average x and y values
+	# average those with centre of contour
 	return (x, y)

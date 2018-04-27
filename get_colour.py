@@ -1,8 +1,8 @@
 """ 
 Finds the colour of eyeshine
 Two functions: 
-get_colour() finds the eyeshine colour from a single eye
-ave_eye_colour() averages for the two eyes if the colours are sufficiently similar
+	get_colour() finds the eyeshine colour from a single eye
+	ave_eye_colour() averages for the two eyes if the colours are sufficiently similar
 Last modified: 27 APR 2018
 """
 

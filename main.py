@@ -1,7 +1,9 @@
 from find_eye import *
 from find_pairs import *
 from get_colour import *
+from get_spectrum import *
 import argparse
+import pprint
 
 
 # construct the argument parse and parse the arguments
@@ -39,6 +41,13 @@ for i in range(0, num_pairs):
 	print("NAE Pair " + str(i+1))
 	print("Interpupillary distance: " + str(dist))
 	print("Colour (RGB): " + str(ave_col))
+
+	# get spectrum
+	[spec1, spec2] = get_spectrum(pair, orig)
+	print("Left eye spectrum")
+	print(spec1)
+	print("Right eye spectrum")
+	print(spec2)
 
 
 

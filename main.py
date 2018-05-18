@@ -108,11 +108,6 @@ for i in range(0, num_pairs):
 	#print(spec2)
 
 
-	
-	# add to database
-
-
-
 
 """
 for each pair:
